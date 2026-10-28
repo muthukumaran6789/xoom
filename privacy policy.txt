@@ -1,0 +1,17 @@
+Workplace automotive application privacy policy
+
+1. Information we collect
+OAuth Access & Refresh Token: To authenticate with xoom APIs, the application securely receives short-lived OAuth tokens brokered via our AWS Lambda proxy.
+Meeting Schedule Metadata: The application fetches upcoming meeting details directly from Xoom API endpoints (https://api.xoom.us/v2) for display on the vehicle screen.
+
+2. Information We Do Not Collect or Store
+No Persistent Cloud Storage: The AWS Lambda backend proxy operates statelessly
+No Media Persistence: Video, audio, screen share content or meeting recordings are processed real time via the official Xoom Meeting SDK and are nvever recorded, stored or transmitted to our servers.
+No Personal Identification Tracking: We does not track, collect or share user personal identifiable information (PII) or telemetry data.
+
+3. On-Device Storage & Data Security
+* Client Token Encryption: OAuth access and refresh tokens stored on the Android device are encrypted using EncryptedSharedPreferences using Google tink library.
+* Transport Layer Security: All communications between the Android application, AWS backend proxy and xoom API endpoints are strictly encrypted using HTTPS over TLS 1.2/TLS 1.3
+
+4. Third-Party Data Shariang
+* We does not sell, rent or share user data with any third parties. Data interaction occurs exclusively between the user's client app. Our secure AWS proxy broker and official Xoom API infrastructure.

@@ -1,0 +1,32 @@
+Overview
+Visteon Meetings integrates with Zoom and allows users to authenticate using QR code login, connect their Zoom account and start or join meetings.
+
+Adding the app
+Prerequisites
+* Active Zoom account
+* Access to Visteon Meetings Automotive Android App
+* Device capable of scanning QR codes or any device with a web browser to manually enter the code
+
+Steps
+1. Open Visteon Meetings.
+2. Scan the QR code displayed on the login screen or open the link displayed on the screen in your browser and enter the code and click 'Confirm'.
+3. Review the scopes/permissions that the app requires and click 'Approve'.
+4. Return to Visteon Meetings after authorization.
+
+Using Visteon Meetings
+Start/Join scheduled Meeting
+1. Open Visteon Meetings.
+2. Select the home tab.
+3. Click Start/Join Meeting on the Scheduled Meeting List.
+
+Removing the app
+1. Sign in to Zoom Marketplace.
+2. Navigate to Manage -> Added Apps.
+3. Select Visteon Meetings.
+4. Click Remove.
+5. Confirm removal.
+
+After Removal
+- Zoom access tokens are revoked.
+- Zoom integration access is removed.
+- Reauthorization is required to reconnect.
